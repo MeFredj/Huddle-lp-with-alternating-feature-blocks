@@ -1,0 +1,117 @@
+/* *********FUNDAMENTALS********* */
+:root {
+  /* primary */
+  --pink: hsl(322, 100%, 66%);
+  /* fundamental */
+  --white: #fff;
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 39.7px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.btn {
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  -webkit-box-shadow: 0px 3px 7px 3px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 3px 7px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 3px 7px 3px rgba(0, 0, 0, 0.06);
+}
+
+.flex-container {
+  display: flex;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+/* ************HEADER************ */
+
+header {
+  background-image: url(/images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: var(--very-pale-cyan);
+}
+
+/* -------------Menu------------- */
+
+.flex-container-menu {
+  padding: 48px 80px 0;
+  max-width: 1360px;
+  /* flex-wrap: wrap; */
+}
+
+.flex-item-menu > img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.flex-item-menu-btn {
+  margin-left: auto;
+}
+
+.flex-item-menu-btn button {
+  background-color: var(--white);
+  padding: 17px 65px;
+}
+
+/* -------------HERO------------- */
+
+.flex-header-left {
+  max-width: 580px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+.flex-header-left h1 {
+  margin-bottom: 30px;
+}
+
+.max-width-right {
+  padding-right: 65px;
+}
+
+.flex-header-right {
+  max-width: 700px;
+}
+
+.flex-header-right img {
+  /* max-width: 700px; */
+  width: 100%;
+}
+
+.max-width-right .btn {
+  background-color: var(--pink);
+  color: var(--white);
+  margin-top: 30px;
+  padding: 22px 70px;
+}
+
+.flex-container-hero {
+  padding: 65px 80px;
+}
